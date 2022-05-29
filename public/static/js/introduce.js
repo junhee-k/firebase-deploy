@@ -78,6 +78,7 @@ $(document).on('click', '#bl4, #al4' ,function(e) {
 // 버튼 구현 완료
 
 // img click
+/*
 jQuery.fn.centerpos = function (a, b) {
   this.css("position","absolute");
   this.css("top", Math.max(0, a + (($(window).height() - $(this).outerHeight()) / 2) + 
@@ -98,7 +99,7 @@ function ClickImage(a,b,c,d,x,y,z,t){
     $(t).centerpos(130, 28);
     /*$('.insta').centerpos(130, 15.5);
     $('.mail').centerpos(130, 49.5);*/
-    $(y).centerpos(210, 32,5);
+    /*$(y).centerpos(210, 32,5);
   })
 }
 
@@ -106,7 +107,7 @@ function DeleteImage(a){
   $(document).on('click', '.quit' ,function(e) {
     $(a).css('display', 'none');
   })
-}
+}*/
 
 // board + edu
 ClickImage('#김지원', '.김지원, .name_0, .job_0, .maxim_0, .email_0', '.김지원', '.name_0', '.job_0', '.maxim_0', 32, '.email_0')
