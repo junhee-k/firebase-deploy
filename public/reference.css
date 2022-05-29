@@ -1,0 +1,222 @@
+body{
+    margin:0;
+    font-family: 'Noto Sans KR', sans-serif;
+    }
+
+.container{
+position: relative;
+width: 1920px;
+height:5997px;
+background: #FFFFFF;
+}
+
+.frame{
+    /* Frame */
+position: absolute;
+width: 93.32px;
+height: 29.51px;
+left: 133px;
+top: 25px;
+}
+
+.whower{
+    position:absolute;
+    display:flex;
+    gap:130px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    width: 599.5px;
+    height: 25px;
+    top:28px;
+    left:933px;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 25px;
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    color: black;
+    }
+    
+    .login{
+        position: absolute;
+        width: 115px;
+        height: 22px;
+        left: 1626px;
+        top: 29px;
+        gap:31px;
+        font-family: Noto Sans KR;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 22px;
+        /* identical to box height */
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.015em;
+        
+        color: #9F9F9F;
+    }
+
+
+.line{
+    position: absolute;
+    width: 1330px;
+    height: 28px;
+    left: 295px;
+    top: 139px;
+    
+}
+
+.lineder{
+    position: absolute;
+    width: 17px;
+    height: 0px;
+    left: 1682px;
+    top: 41px;
+    
+    border: 1px solid #C6C6C6;
+    transform: rotate(90deg);
+}
+
+        .one{
+            display:none;
+            position: absolute;
+            width: 1004px;
+            height: 101px;
+            left: 916px;
+            top: 59px;
+            }
+            
+            .two{
+                display: none;
+                position: absolute;
+                width: 765px;
+                height: 100.98px;
+                left: 1155px;
+                top: 59.02px;}
+            
+            .thi{
+                display: none;
+                position: absolute;
+                width: 525px;
+                height: 100.94px;
+                left: 1395px;
+                top: 59.06px;}
+            
+            .onetex, .twotex, .thitex{
+               cursor:pointer
+            }
+            
+            .oneone{
+            position: absolute;
+            left: 956px;
+            top: 107px;
+            
+            font-family: 'Noto Sans KR';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 25px;
+            /* identical to box height */
+            
+            display: none;
+            letter-spacing: -0.015em;
+            
+            backdrop-filter: blur(4px);
+            /* Note: backdrop-filter has minimal browser support */
+            }
+            
+            .oneonetwo{
+                position: absolute;
+            width: 88px;
+            height: 25px;
+            left: 1182px;
+            top: 107px;
+            
+            font-family: 'Noto Sans KR';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 25px;
+            /* identical to box height */
+            
+            display: none;
+            align-items: center;
+            text-align: center;
+            letter-spacing: -0.015em;
+            }
+            
+            .onetwo{
+                display:none;
+                position: absolute;
+                width: 138px;
+                height: 25px;
+                left: 1401px;
+                top: 107px;
+                
+                font-family: 'Noto Sans KR';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 25px;
+                /* identical to box height */
+                align-items: center;
+            text-align: center;
+                letter-spacing: -0.015em;}
+            
+            .twoone{position: absolute;
+                width: 62px;
+                height: 25px;
+                left: 1195px;
+                top: 107px;
+                
+                font-family: 'Noto Sans KR';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 25px;
+                /* identical to box height */
+                
+                display: none;
+                letter-spacing: -0.015em;}
+            
+            .twotwo{position: absolute;
+                width: 16px;
+                height: 25px;
+                left: 1462px;
+                top: 107px;
+                
+                font-family: 'Noto Sans KR';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 25px;
+                /* identical to box height */
+                
+                display: none;
+                align-items: center;
+                text-align: center;
+                letter-spacing: -0.015em;}
+            
+            .thione{
+                position: absolute;
+                height: 25px;
+                left: 1425px;
+                top: 107px;
+                
+                font-family: 'Noto Sans KR';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 25px;
+                /* identical to box height */
+                
+                display: none;
+                align-items: center;
+                text-align: center;
+                letter-spacing: -0.015em;}

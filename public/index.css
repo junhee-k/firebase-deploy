@@ -1,0 +1,772 @@
+body{
+margin:0;
+font-family: 'Noto Sans KR', sans-serif;
+}
+
+.Nav {
+position: relative;
+width: 1920px;
+height: 80px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
+.samplelogo{
+/* Sample Logo */
+
+position: absolute;
+width: 122.07px;
+height: 32px;
+left: 80px;
+top: 24px;
+}
+
+.whower{
+position:absolute;
+display:flex;
+gap:130px;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+width: 599.5px;
+height: 25px;
+top:28px;
+left:933px;
+font-family: Noto Sans KR;
+font-style: normal;
+font-weight: 900;
+font-size: 17px;
+line-height: 25px;
+backdrop-filter: blur(4px);
+/* Note: backdrop-filter has minimal browser support */
+color: #4558FF;
+}
+
+.login{
+    position: absolute;
+    width: 115px;
+    height: 22px;
+    left: 1626px;
+    top: 29px;
+    gap:31px;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    
+    color: #9F9F9F;
+}
+
+.line1{
+/* Line 1 */
+
+
+position: absolute;
+width: 17px;
+height: 0px;
+left: 1682px;
+top: 41px;
+
+border: 1px solid #C6C6C6;
+transform: rotate(90deg);
+}
+
+.grayp {
+/* Rectangle 47 */
+position: static;
+width: 1920px;
+height: 1080px;
+left: 0px;
+top: 80px;
+
+background: #C4C4C4;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
+.w1{
+/* Rectangle 39 */
+width: 1920px;
+height: 758px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+
+position: relative;
+}
+
+.w2, .w3 {
+/* Rectangle 39 */
+width: 1920px;
+height: 758px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.05);
+
+position: relative;
+}
+
+.whatwedo {
+/* WHAT WE DO */
+position: absolute;
+width: 120px;
+height: 26px;
+left: 450px;
+top: 60px;
+font-family: Noto Sans KR;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height */
+
+
+/* maincolor_blue */
+
+color: #4558FF;
+
+}
+
+.program{
+position: absolute;
+width: 280.83px;
+height: 67.99px;
+left: 1191px;
+top: 192px;
+}
+
+.ai {
+/* 인공지능 경진대회 */
+position: absolute;
+width: 185px;
+height: 35px;
+left: 1289px;
+top: 255px;
+
+font-family: Noto Sans KR;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 35px;
+/* identical to box height */
+
+text-align: right;
+
+color: #3A3A3A;
+}
+
+.ailow {
+/* Face & Speech Recognition 기술을 이용해 유쾌한 아이디어를 직접 코딩을 통해 구현하는 대회 */
+
+
+position: absolute;
+width: 432px;
+height: 64px;
+left: 1040px;
+top: 468px;
+
+font-family: Noto Sans KR;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 36px;
+/* or 200% */
+
+text-align: right;
+letter-spacing: 0.1em;
+
+color: #000000;
+}
+
+.apply {
+/* apply */
+
+
+/* Auto layout */
+position: absolute;
+width: 259px;
+height: 61px;
+left: 1213px;
+right: 0%;
+top: 557px;
+
+background: #FFFFFF;
+border: 2px solid #4558FF;
+border-radius: 40px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
+.applyer{
+    position: absolute;
+    width: 76px;
+    height: 29px;
+    left: 1304.5px;
+    top: 573px;
+    
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    /* identical to box height */
+    
+    /* maincolor_blue */
+    
+    color: #4558FF;
+    
+    
+    /* Inside auto layout */
+}
+
+.computerback{
+position: absolute;
+width: 449px;
+height: 449px;
+left: 450px;
+top: 192px;
+}
+
+.comput{
+position: absolute;
+width: 260px;
+height: 260px;
+left: 544px;
+top: 286px;
+}
+
+.computon{
+    display:none;
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    left: 544px;
+    top: 286px;
+}
+
+.frame2{
+/* Frame */
+position: absolute;
+width: 174.87px;
+height: 54.6px;
+left: 450px;
+top: 192px;
+}
+
+.outtaonly{
+/* OUTTA에서만 볼 수 있는 책 */
+position: absolute;
+width: 283px;
+height: 35px;
+left: 448px;
+top: 255px;
+
+font-family: Noto Sans KR;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 35px;
+/* identical to box height */
+
+
+color: #3A3A3A;
+}
+
+.autonom{
+    position: absolute;
+    width: 432px;
+    height: 64px;
+    left: 444px;
+    top: 468px;
+    
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    /* or 200% */
+    letter-spacing: 0.1em;
+    
+    color: #000000;
+}
+
+.bookbut{
+    position: absolute;
+    width: 259px;
+    height: 61px;
+    left: 444px;
+    right: 0%;
+    top: 557px;
+    
+    background: #FFFFFF;
+    border: 2px solid #4558FF;
+    border-radius: 40px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.gobook{
+    position:absolute;
+    width: 100px;
+    height: 29px;
+    left: 523.5px;
+    top: 573px;
+    
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    /* maincolor_blue */
+    
+    color: #4558FF;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    
+    /* Inside auto layout */
+}
+
+.lib{
+    position: absolute;
+    width: 449px;
+    height: 449px;
+    left: 1071px;
+    top: 192px;
+}
+
+.books{
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    left: 1165px;
+    top: 286px;
+    
+}
+
+.bookson{
+    display: none;
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    left: 1165px;
+    top: 286px;
+    
+}
+
+.folback{
+    position: absolute;
+    width: 449px;
+    height: 449px;
+    left: 450px;
+    top: 192px;
+}
+
+.folders{
+/* 자료실 일러 */
+
+
+position: absolute;
+width: 260px;
+height: 260px;
+left: 544px;
+top: 286px;
+}
+
+.folderson{
+    display: none;
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    left: 545px;
+    top: 286px;    
+}
+
+.frame3{
+    position: absolute;
+    width: 280.83px;
+    height: 67.99px;
+    left: 1176px;
+    top: 192px;
+    }
+
+.onlyin{
+/* OUTTA에서만 볼 수 있는 자료실 */
+
+position: absolute;
+width: 330px;
+height: 35px;
+left: 1145px;
+top: 255px;
+
+font-family: Noto Sans KR;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 35px;
+/* identical to box height */
+
+text-align: right;
+
+color: #3A3A3A;
+}
+
+.skeleton{
+    position: absolute;
+    width: 435px;
+    height: 64px;
+    left: 1040px;
+    top: 468px;
+    
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    /* or 200% */
+    
+    text-align: right;
+    letter-spacing: 0.1em;
+    
+    color: #000000;
+}
+
+.lookbor {
+    /* apply */
+    
+    
+    /* Auto layout */
+    position: absolute;
+    width: 259px;
+    height: 61px;
+    left: 1213px;
+    right: 0%;
+    top: 557px;
+    
+    background: #FFFFFF;
+    border: 2px solid #4558FF;
+    border-radius: 40px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    }
+
+.lookat{
+    position:absolute;
+    width: 138px;
+    height: 29px;
+    left: 1273.5px;
+    top: 573px;
+    
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    /* maincolor_blue */
+    
+    color: #4558FF;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.FooterC{
+position: relative;
+}
+
+.lowline{
+    position: absolute;
+    width: 1810px;
+    height: 1px;
+    left: 55px;
+    top: 221px;
+    
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.leftlow{
+/* © OUTTA, Inc. 2022. We love our students! */
+
+
+position: absolute;
+width: 301px;
+height: 24px;
+left: 63px;
+top: 401px;
+
+font-family: Noto Sans KR;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height, or 160% */
+
+text-align: center;
+letter-spacing: -0.015em;
+
+color: rgba(0, 0, 0, 0.8);
+}
+
+.leftlowlow{
+    position: absolute;
+    width: 456px;
+    height: 24px;
+    left: 54px;
+    top: 431px;
+    
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    /* identical to box height, or 200% */
+    
+    text-align: center;
+    letter-spacing: -0.015em;
+    
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.logos{
+position: absolute;
+width: 262px;
+height: 37px;
+left: 72px;
+top: 356px;
+display:flex;
+flex-direction: row;
+gap: 38px;
+}
+
+.titles{
+/* Group 7 */
+position: absolute;
+width: 493px;
+height: 24px;
+left: 1351px;
+top: 402px;
+display:flex;
+flex-direction: row;
+gap: 48px;
+font-family: Noto Sans KR;
+font-style: normal;
+font-weight: 900;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height, or 160% */
+
+text-align: right;
+letter-spacing: -0.015em;
+color: #4558FF;
+}
+
+.one{
+display:none;
+position: absolute;
+width: 1004px;
+height: 101px;
+left: 916px;
+top: 59px;
+}
+
+.two{
+    display: none;
+    position: absolute;
+    width: 765px;
+    height: 100.98px;
+    left: 1155px;
+    top: 59.02px;}
+
+.thi{
+    display: none;
+    position: absolute;
+    width: 525px;
+    height: 100.94px;
+    left: 1395px;
+    top: 59.06px;}
+
+.onetex, .twotex, .thitex{
+   cursor:pointer
+}
+
+.oneone{
+position: absolute;
+left: 956px;
+top: 107px;
+
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 25px;
+/* identical to box height */
+
+display: none;
+letter-spacing: -0.015em;
+
+backdrop-filter: blur(4px);
+/* Note: backdrop-filter has minimal browser support */
+}
+
+.oneonetwo{
+    position: absolute;
+width: 88px;
+height: 25px;
+left: 1182px;
+top: 107px;
+
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 25px;
+/* identical to box height */
+
+display: none;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+}
+
+.onetwo{
+    display:none;
+    position: absolute;
+    width: 138px;
+    height: 25px;
+    left: 1401px;
+    top: 107px;
+    
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+    align-items: center;
+text-align: center;
+    letter-spacing: -0.015em;}
+
+.twoone{position: absolute;
+    width: 62px;
+    height: 25px;
+    left: 1195px;
+    top: 107px;
+    
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    display: none;
+    letter-spacing: -0.015em;}
+
+.twotwo{position: absolute;
+    width: 16px;
+    height: 25px;
+    left: 1462px;
+    top: 107px;
+    
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    display: none;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;}
+     
+    .twothree{
+        position: absolute;
+        width: 60px;
+        height: 25px;
+        left: 1730px;
+        top: 107px;
+                
+        font-family: 'Noto Sans KR';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 25px;
+        /* identical to box height */
+                
+        display: none;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.015em;
+    }
+.thione{
+    position: absolute;
+    height: 25px;
+    left: 1425px;
+    top: 107px;
+    
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    display: none;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;}
+
+
+#cursoron{
+    cursor: pointer;
+}

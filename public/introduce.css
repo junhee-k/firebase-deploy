@@ -1,0 +1,737 @@
+body{
+    margin:0;
+    font-family: 'Noto Sans KR', sans-serif;
+    }
+
+.container{
+position: relative;
+width: 1920px;
+height:6816px;
+background: #FFFFFF;
+}
+
+.frame{
+    /* Frame */
+position: absolute;
+width: 93.32px;
+height: 29.51px;
+left: 133px;
+top: 25px;
+}
+
+.whower{
+    position:absolute;
+    display:flex;
+    gap:130px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    width: 599.5px;
+    height: 25px;
+    top:28px;
+    left:933px;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 25px;
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    color: black;
+    }
+    
+    .login{
+        position: absolute;
+        width: 115px;
+        height: 22px;
+        left: 1626px;
+        top: 29px;
+        gap:31px;
+        font-family: Noto Sans KR;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 22px;
+        /* identical to box height */
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.015em;
+        
+        color: #9F9F9F;
+    }
+
+
+.line{
+    position: absolute;
+    width: 1330px;
+    height: 28px;
+    left: 295px;
+    top: 139px;
+    
+}
+
+.lineder{
+    position: absolute;
+    width: 17px;
+    height: 0px;
+    left: 1682px;
+    top: 41px;
+    
+    border: 1px solid #C6C6C6;
+    transform: rotate(90deg);
+}
+
+.purple{
+    position: absolute;
+    width: 1920px;
+    height: 1329px;
+    left: 0px;
+    top: 0px;
+    
+    background: #F4F6FB;
+    /* CompanyIntro_boxshadow */
+    
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.08);
+}
+
+.teamoutta{
+    position: absolute;
+    width: 420px;
+    height: 93px;
+    left: 300px;
+    top: 213px;
+    
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 93px;
+    /* identical to box height */
+    
+    
+    color: #282828;
+    
+}
+
+.purplebox{
+position: absolute;
+width: 439px;
+height: 23px;
+left: 305px;
+top: 260px;
+
+background: rgba(69, 88, 255, 0.3);
+}
+
+.board{
+position: absolute;
+width: 69px;
+height: 36px;
+left: 300px;
+top: 402px;
+
+font-family: Noto Sans KR;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.wrapper {
+    position:absolute;
+    display:grid;
+    top:402px;
+    left:576px;
+    grid-template-columns: 274px 274px 275px 275px;
+    grid-template-rows: 297px 297px;
+    background: url(.jpg);
+  }
+/*
+.wrapper{
+    position:absolute;
+    display:flex;
+    flex-direction: row;
+    top:402px;
+    left:576px;
+    gap:54px;
+}*/
+
+.wrappername{
+    position:absolute;
+    display:flex;
+    flex-direction: row;
+    top:627px;
+    left:664px;
+    gap: 233px;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+.bluebox{
+
+position: absolute;
+width: 124px;
+height: 55px;
+left: 300px;
+top: 1462px;
+
+background: #FFFFFF;
+border: 2px solid #4558FF;
+border-radius: 10px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.all{
+    position: absolute;
+    width: 36px;
+    height: 29px;
+    left: 344px;
+    top: 1475px;
+    
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #4558FF;
+}
+
+.edu{
+position: absolute;
+width: 240px;
+height: 65px;
+left: 300px;
+top: 1621px;
+
+font-family: Noto Sans KR;
+font-style: normal;
+font-weight: 900;
+font-size: 45px;
+line-height: 65px;
+
+color: #000000;
+}
+
+.teamedu{
+position: absolute;
+width: 115px;
+height: 36px;
+left: 300px;
+top: 1774px;
+
+font-family: Noto Sans KR;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 36px;
+
+color: #000000;
+}
+
+/*click img*/
+
+.purpler{
+    display: none;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 1920px;
+    height: 7322px;
+    background: rgba(83, 96, 211, 0.5);
+}
+
+.whitebox{
+    display: none;
+    position: absolute;
+    width: 574px;
+    height: 829px;
+}
+
+.quit{
+    display:none;
+    position: absolute;
+    width: 59px;
+    height: 59px;
+}
+
+.outtaframe{
+    display:none;
+    position: absolute;
+    width: 124px;
+    height: 52px;
+}
+
+#standard{
+    width:334px;
+    height:334px;
+}
+
+#name{
+    position: absolute;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+}
+
+#job, #email{
+    position: absolute;
+    height: 26px;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #6E6E6E;
+}
+
+#maxim{
+    position: absolute;
+    width: 500px;
+    height: 64px;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: #000000;
+}
+
+#standard, #job, #name, #maxim, #email{
+    display:none;
+    position: absolute;
+}
+
+/* Navigation */
+.one{
+    display:none;
+    position: absolute;
+    width: 1004px;
+    height: 101px;
+    left: 916px;
+    top: 59px;
+    }
+    
+.two{
+    display: none;
+    position: absolute;
+    width: 765px;
+    height: 100.98px;
+    left: 1155px;
+    top: 59.02px;
+}
+    
+.thi{
+    display: none;
+    position: absolute;
+    width: 525px;
+    height: 100.94px;
+    left: 1395px;
+    top: 59.06px;
+}
+    
+.onetex, .twotex, .thitex{
+    cursor:pointer
+}
+    
+.oneone{
+    position: absolute;
+    left: 956px;
+    top: 107px;
+    
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    display: none;
+    letter-spacing: -0.015em;
+    
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+}
+    
+.oneonetwo{
+    position: absolute;
+    width: 88px;
+    height: 25px;
+    left: 1182px;
+    top: 107px;
+    
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    display: none;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+}
+    
+.onetwo{
+    display:none;
+    position: absolute;
+    width: 138px;
+    height: 25px;
+    left: 1401px;
+    top: 107px;
+        
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+}
+
+.twoone{
+    position: absolute;
+    width: 62px;
+    height: 25px;
+    left: 1195px;
+    top: 107px;
+            
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+            
+    display: none;
+    letter-spacing: -0.015em;
+}
+        
+.twotwo{
+    position: absolute;
+    width: 16px;
+    height: 25px;
+    left: 1462px;
+    top: 107px;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+    display: none;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+}
+        
+.thione{
+    position: absolute;
+    height: 25px;
+    left: 1425px;
+    top: 107px;
+                
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+                
+    display: none;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+}
+    
+
+.FooterC{
+    position: relative;
+}
+    
+.lowline{
+    position: absolute;
+    width: 1810px;
+    height: 1px;
+    left: 55px;
+    top: 221px;
+    background: rgba(0, 0, 0, 0.5);
+}
+    
+.leftlow{
+    /* © OUTTA, Inc. 2022. We love our students! */
+    position: absolute;
+    width: 301px;
+    height: 24px;
+    left: 63px;
+    top: 401px;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+}
+    
+.leftlowlow{
+    position: absolute;
+    width: 456px;
+    height: 24px;
+    left: 54px;
+    top: 431px;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    /* identical to box height, or 200% */
+    text-align: center;
+    letter-spacing: -0.015em; 
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.line1{
+    /* Line 1 */
+    position: absolute;
+    width: 17px;
+    height: 0px;
+    left: 1682px;
+    top: 41px;
+    border: 1px solid #C6C6C6;
+    transform: rotate(90deg);
+}
+    
+.logos{
+    position: absolute;
+    width: 262px;
+    height: 37px;
+    left: 72px;
+    top: 356px;
+    display:flex;
+    flex-direction: row;
+    gap: 38px;
+}
+    
+.titles{
+    /* Group 7 */
+    position: absolute;
+    width: 493px;
+    height: 24px;
+    left: 1351px;
+    top: 402px;
+    display:flex;
+    flex-direction: row;
+    gap: 48px;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+    text-align: right;
+    letter-spacing: -0.015em;
+    color: #4558FF;
+}
+    
+.one{
+    display:none;
+    position: absolute;
+    width: 1004px;
+    height: 101px;
+    left: 916px;
+    top: 59px;
+}
+    
+.two{
+    display: none;
+    position: absolute;
+    width: 765px;
+    height: 100.98px;
+    left: 1155px;
+    top: 59.02px;
+}
+    
+.thi{
+    display: none;
+    position: absolute;
+    width: 525px;
+    height: 100.94px;
+    left: 1395px;
+    top: 59.06px;
+}
+    
+.onetex, .twotex, .thitex{
+    cursor:pointer
+}
+    
+.oneone{
+    position: absolute;
+    left: 956px;
+    top: 107px;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+    display: none;
+    letter-spacing: -0.015em;
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+}
+    
+.oneonetwo{
+    position: absolute;
+    width: 88px;
+    height: 25px;
+    left: 1182px;
+    top: 107px;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+    display: none;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+}
+    
+.onetwo{
+    display:none;
+    position: absolute;
+    width: 138px;
+    height: 25px;
+    left: 1401px;
+    top: 107px;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+}
+    
+.twoone{
+    position: absolute;
+    width: 62px;
+    height: 25px;
+    left: 1195px;
+    top: 107px;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+    display: none;
+    letter-spacing: -0.015em;
+}
+    
+.twotwo{
+    position: absolute;
+    width: 16px;
+    height: 25px;
+    left: 1462px;
+    top: 107px;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+    display: none;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+}
+         
+.twothree{
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    left: 1730px;
+    top: 107px;        
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */         
+    display: none;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+}
+
+.thione{
+    position: absolute;
+    height: 25px;
+    left: 1425px;
+    top: 107px;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */ 
+    display: none;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+}
+
+#cursoron{
+    cursor: pointer;
+}
+
+.teamintro{
+    position: absolute;
+    width: 203px;
+    height: 54px;
+    left: 300px;
+    top: 1834px;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 180%;
+    /* or 27px */
+    color: #6E6E6E;
+}
+
+.edu_1{
+    position: absolute;
+    left: 1215px;
+    top: 1999px;
+}

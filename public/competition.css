@@ -1,0 +1,311 @@
+body
+{
+    margin : 0;
+}
+
+#main
+{
+    position: relative;
+    width: 1920px;
+    height: 6934px;
+    top:200px;
+
+    background: #FFFFFF;
+}
+
+.one{
+    display:none;
+    position: absolute;
+    width: 1004px;
+    height: 101px;
+    left: 916px;
+    top: 59px;
+    }
+    
+.two{
+    display: none;
+    position: absolute;
+    width: 765px;
+    height: 100.98px;
+    left: 1155px;
+    top: 59.02px;
+}
+    
+.thi{
+    display: none;
+    position: absolute;
+    width: 525px;
+    height: 100.94px;
+    left: 1395px;
+    top: 59.06px;
+}
+    
+.onetex, .twotex, .thitex{
+    cursor:pointer
+}
+    
+.oneone{
+    position: absolute;
+    left: 956px;
+    top: 107px;
+    
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    display: none;
+    letter-spacing: -0.015em;
+    
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+}
+    
+.oneonetwo{
+    position: absolute;
+    width: 88px;
+    height: 25px;
+    left: 1182px;
+    top: 107px;
+    
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    display: none;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+}
+    
+.onetwo{
+    display:none;
+    position: absolute;
+    width: 138px;
+    height: 25px;
+    left: 1401px;
+    top: 107px;
+        
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;}
+    
+.twoone{
+    position: absolute;
+    width: 62px;
+    height: 25px;
+    left: 1195px;
+    top: 107px;
+        
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+        
+    display: none;
+    letter-spacing: -0.015em;}
+    
+.twotwo{
+    position: absolute;
+    width: 16px;
+    height: 25px;
+    left: 1462px;
+    top: 107px;
+        
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+        
+    display: none;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;}
+.twothree{
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    left: 1730px;
+    top: 107px;
+            
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+            
+    display: none;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+}    
+.thione{
+    position: absolute;
+    height: 25px;
+    left: 1425px;
+    top: 107px;
+        
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+        
+    display: none;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+}
+    
+.whower{
+    position:absolute;
+    display:flex;
+    gap:130px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    width: 599.5px;
+    height: 25px;
+    top:28px;
+    left:933px;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 25px;
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    color: #4558FF;
+}
+    
+.login{
+    position: absolute;
+    width: 115px;
+    height: 22px;
+    left: 1626px;
+    top: 29px;
+    gap:31px;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+        
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+        
+    color: #9F9F9F;
+}
+
+.logos{
+    position: absolute;
+    width: 262px;
+    height: 37px;
+    left: 73.5px;
+    top: 6996px;
+    display:flex;
+    flex-direction: row;
+    gap: 38px;
+}
+        
+.titles{
+    /* Group 7 */
+    position: absolute;
+    width: 493px;
+    height: 24px;
+    left: 1351px;
+    top: 6402px;
+    display:flex;
+    flex-direction: row;
+    gap: 48px;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+        
+    text-align: right;
+    letter-spacing: -0.015em;
+    color: #4558FF;
+}
+
+.line1{
+    /* Line 1 */
+            
+            
+    position: absolute;
+    width: 17px;
+    height: 0px;
+    left: 1682px;
+    top: 41px;
+            
+    border: 1px solid #C6C6C6;
+    transform: rotate(90deg);
+}
+
+.frame{
+    /* Frame */
+    position: absolute;
+    width: 93.32px;
+    height: 29.51px;
+    left: 133px;
+    top: 25px;
+}
+
+.applyer{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    left: 770px;
+    top: 6458px;
+}
+.applyer img{
+    height : 55px;
+}
+
+
+
+.giho{
+
+    position: absolute;
+    width: 200px;
+    height: 22px;
+    left: 301px;
+    top: 144px;
+    
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #4A4A4A;
+}
+
+#cursoron{
+    cursor: pointer;
+}

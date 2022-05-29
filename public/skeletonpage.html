@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="skeletonpage.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type = module src="skeletonpage.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      document.body.style.zoom = window.innerWidth / 1920;
+      window.onresize = function (event) {
+        var innerWidth = window.innerWidth;
+        document.body.style.zoom = innerWidth / 1920;
+      };
+    </script>
+    <div class="container"></div>
+      <div class="giho">WHAT WE DO >> 자료실</div>
+
+      <a href="index.html"><img src="Group 893.png" class="frame"></a>
+
+      <div class="whower">
+          <div class="onetex" style="text-decoration:none;">WHO WE ARE</div>
+          <div class="twotex" style="text-decoration:none;">WHAT WE DO</div>
+          <div class="thitex" style="text-decoration:none;">NOTIFICATION</div>
+        </div>
+
+        <div class="one">
+          <img src="Union (1).png">
+        </div>
+
+        <div class="two">
+          <img src="Union (3).png">
+        </div>
+
+        <div class="thi">
+          <img src="Union (4).png">
+        </div>
+
+        <div class="oneone">
+          <a href="whoweare.html"  style="text-decoration: none; color: black;">단체소개</a>
+        </div>
+
+        <div class="oneonetwo">
+          <a href="introduce.html" style="text-decoration: none; color: black;">팀 팀원 소개</a>
+        </div>
+
+        <div class="onetwo">
+          <a href="mission.html" style="text-decoration: none; color: black;">미션 비전 핵심가치</a>
+        </div>
+
+        <div class="twoone">
+          <a href="competition.html" style="text-decoration: none; color: black;">프로그램</a>
+        </div>
+
+        <div class="twotwo">
+          <a href="books.html" style="text-decoration: none; color: black;">책</a>
+        </div>
+
+        <div class="twothree">
+          <a href="document.html" style="text-decoration: none; color: black;">자료실</a>
+        </div>
+
+        <div class="thione">
+          <a href="#" style="text-decoration: none; color: black;">OUTTA 소식</a>
+        </div>
+
+      
+      <div class="login">
+          <div>LOGIN</div>
+          <div>JOIN</div>
+      </div>
+      
+
+      <div class="lineder">
+      </div>
+    </div>
+    <div class="top">
+      <div class="title">
+        자료실
+      </div>
+      <div class="description">
+        교재 연습 문제 해결에 필요한<br>
+        데이터셋 파일과 스켈레톤 코드가 있습니다.
+      </div>
+    </div>
+    <div class="skelset">
+      <div>스켈레톤</div>
+      <div class="page-div">
+        <div id="title"></div>
+        <div id="date"></div>
+        <div id="body"></div>
+        <div id="file"></div>
+      </div>
+      <div class="buttons">
+        <button type="button" id="doclist">목록</button>
+      </div>
+    </div>
+  </body>
+</html>
